@@ -763,9 +763,9 @@ extension NextLevelSession {
                                 videoTrack = composition.addMutableTrack(withMediaType: AVMediaType.video, preferredTrackID: kCMPersistentTrackID_Invalid)
                                 videoTrack?.preferredTransform = videoAssetTrack.preferredTransform
                                 
-                                if NextLevel.shared.devicePosition == .front {
-                                    videoTrack
-                                }
+//                                if NextLevel.shared.devicePosition == .front {
+//                                    videoTrack
+//                                }
                             }
                         }
                         
